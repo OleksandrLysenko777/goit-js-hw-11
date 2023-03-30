@@ -121,3 +121,4 @@ loadBtn.addEventListener(
   },
   true
 );
+document.querySelector('#search-box').placeholder = 'Search images...';
