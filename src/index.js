@@ -10,6 +10,8 @@ const searchForm = document.querySelector('#search-form');
 const gallery = document.querySelector('.gallery');
 const loadBtn = document.querySelector('.load-more');
 
+document.querySelector('#search-box').placeholder = 'Search images...';
+
 let perPage = 40;
 let page = 0;
 let name = searchQuery.value;
@@ -121,4 +123,3 @@ loadBtn.addEventListener(
   },
   true
 );
-document.querySelector('#search-box').placeholder = 'Search images...';
